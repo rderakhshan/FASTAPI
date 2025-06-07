@@ -1,0 +1,107 @@
+# Python-specific ignores
+*.py[cod]  # Compiled Python files
+__pycache__/  # Python cache directories
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.env/
+env/
+virtualenv/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg
+*.egg-info/
+sdist/
+bdist/
+*.whl
+
+# Testing
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dependency directories
+node_modules/
+pip-wheel-metadata/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Other common ignores
+*.bak
+*.swp
+*~
+*.tmp
+temp/
+tmp/
+
+# Documentation build outputs
+docs/_build/
+_build/
+
+# Miscellaneous
+*.bak
+*.gho
+*.ori
+*.orig
+*.rej
+*.swp
+*~
+
+# Project-specific sensitive files
+secrets/
+credentials/
+*.key
+*.pem
+*.cert
+*.pfx
+*.secret
